@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string-array name="op_mode_values">
+        <item>client</item>
+        <item>host</item>
+        <item>otg</item>
+        <item>auto-host</item>
+    </string-array>
+    <string-array name="op_mode_entries">
+        <item>Client mode</item>
+        <item>Host mode</item>
+        <item>OTG mode</item>
+        <item>Auto-host mode</item>
+    </string-array>        
+    
+    <string-array name="op_mode_def_values">
+        <item>nochange</item>
+        <item>client</item>
+        <item>host</item>
+        <item>otg</item>
+        <item>auto-host</item>
+    </string-array>
+    <string-array name="op_mode_def_entries">
+        <item>Don\'t set anything</item>
+        <item>Set to client mode</item>
+        <item>Set to host mode</item>
+        <item>Set to OTG mode</item>
+        <item>Set to auto-host mode</item>
+    </string-array>    
+    
+    <string-array name="dmesg_mode_values">
+        <item>none</item>
+        <item>simple</item>
+        <item>continuous</item>
+    </string-array>
+    <string-array name="dmesg_mode_entries">
+        <item>Don\'t show dmesg</item>
+        <item>Poll dmesg every 5 seconds</item>
+        <item>Continuous dmesg (needs root)</item>
+    </string-array>  
+    
+    <string-array name="drivers_values">
+        <item>S3CLSFS</item>
+        <item>S3CHS</item>
+        <item>DWC</item>
+    </string-array>
+    <string-array name="drivers_entries">
+        <item>S3C LS/FS (USB1)</item>
+        <item>S3C HS (USB2)</item>
+        <item>DWC</item>
+    </string-array>
+    
+    <string-array name="cap_drivers">
+        <item>Unknown</item>
+        <item>S3C Low-speed/Full-speed</item>        
+        <item>S3C High-speed</item>
+        <item>DWC</item>
+    </string-array>
+	
+    <string-array name="cap_opmode">
+        <item>Unknown</item>
+        <item>Client</item>
+        <item>Host</item>
+        <item>OTG</item>
+        <item>Auto-host</item>
+    </string-array>
+	
+	<string-array name="cap_opstate">
+	    <item>Unknown</item>
+        <item>Client mode</item>
+        <item>Host mode using S3C Low-speed/Full-speed (USB1) driver</item>        
+        <item>Host mode using S3C High-speed (USB2) driver</item>
+        <item>Host mode using DWC driver</item>
+	</string-array>
+	
+	<string-array name="cap_cablestate">
+	    <item>Unknown</item>
+        <item>Cable disconnected</item>
+        <item>Standard USB cable connected</item>
+        <item>OTG USB cable connected</item>
+	</string-array>
+	
+	<string-array name="extended_commands">
+	    <item>Reload partition table</item>
+	    <item>Reset Hard Disk</item>
+		<item>Reset USB Device</item>
+	</string-array>
+</resources>

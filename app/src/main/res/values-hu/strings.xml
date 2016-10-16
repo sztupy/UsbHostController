@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version_desc">1.00</string>
+
+    <string name="app_name">USB Hoszt Vezérlő</string>
+    
+    <string name="preferences">Beállítások</string>
+    <string name="info">Infó</string>
+    <string name="usb">USB</string>
+    
+    <string name="about_box">Névjegy</string>
+    <string name="disable_ads">Reklámok kikapcsolása</string>
+    <string name="disable_ads_desc">Támogasd a fejlesztést ha megteszed</string>
+    <string name="about_me">Készítette SztupY</string>
+    <string name="about_me_desc">http://android.sztupy.hu</string>
+    <string name="donate">Támogass PayPal-en keresztül</string>
+    <string name="version">Verziószám</string>
+    <string name="mount_box">Felcsatolás</string>
+    <string name="mount_point">Csatolási pontok</string>
+    <string name="mount_point_set">Minden egyes helyet külön sorba írj</string>
+    <string name="debug_box">Hibakeresési beállítások</string>
+    <string name="wireless_adb">Vezetéknélküli ADB bekapcsolása</string>
+    <string name="disable_charger">Töltő kikapcsolása</string>
+    <string name="dmesg_mode">Dmesg megjelenítési módja</string>
+    <string name="dmesg_mode_desc">Hogyan jelenjen meg a dmesg</string>
+    <string name="dmesg_save">Dmesg kimenetének mentése SD-kártyára</string>
+    <string name="driver_box">S3C OTG eszközkezelő beállítások</string>
+    <string name="driver_def_mode">Alapértelmezett mód</string>
+    <string name="driver_def_mode_desc">Alkalmazás elindításakor ez a mód lesz automatikusan beállítva</string>
+    <string name="driver_mode">Működési mód</string>
+    <string name="driver_mode_desc">Működési mód átállítása</string>
+    <string name="s3c_driver_not_found">Nincs S3C vezérlő a rendszerben</string>
+    <string name="s3c_driver_invalid_mode">Hibás működési mód</string>
+    <string name="wireless_adb_unknown">Vezetéknélküli ADB státusz ismeretlen</string>
+    <string name="wireless_adb_off">Vezetéknélküli ADB kikapcsolva</string>
+    <string name="wireless_adb_on">Vezetéknélküli ADB: </string>
+    <string name="driver_choose">Hoszt mód eszközkezelője</string>
+    <string name="driver_choose_desc">Válaszd ki a kívánt eszközkezelőt</string>
+    
+    <string name="refresh">Frissítés</string>
+	<string name="please_wait">Kérlek várj…</string>
+	
+	<string name="root_hub_yes">Találtam gyökérhubot, az USB hoszt mód aktív!</string>
+	<string name="root_hub_no">Nem találtam gyökérhubot, az USB hoszt mód inaktív vagy nem elérhető!</string>
+	
+	<string name="s3c_driver_yes">S3C USB hoszt eszközkezelő megtalálva!</string>
+	<string name="s3c_driver_no">Nem találtam S3C USB hoszt eszközkezelőt! Ha Samsung Galaxy S i9000, Nexus S vagy hasonló telefonnal rendelkezik, telepíts egy olyan kernelt, melyekben ezek megtalálhatóak. Egyéb eszközök esetén a szolgálatás vagy nem elérhető, vagy valamilyen módon aktiválni kell.</string>
+	
+	<string name="available_drivers">Elérhető eszközkezelők</string>
+	<string name="actual_driver">Aktuális eszközkezelő</string>
+	<string name="cable_state">Kábel állapota</string>
+	<string name="op_state">Aktuális működési állapot</string>
+	<string name="op_mode">Aktuális működési mód</string>
+	<string name="can_disable_charger">Kikapcsolható a töltő</string>
+	<string name="is_charger_dis">Ki van kapcsolva a töltő</string>
+	
+	<string name="yes">Igen</string>
+	<string name="no">Nem</string>
+	<string name="ok">OK</string>
+	
+	<string name="conn_usb_dev">Csatlakoztatott USB eszközök</string>
+	<string name="conn_usb_strg">Csatlakoztatott adattároló eszközök</string>
+	<string name="mount_point_choose">Csatolási pont kiválasztása</string>
+	<string name="message">Üzenet</string>
+	
+	<string name="adv_commands">Válassz egy parancsot</string>
+	
+	<string name="mount">Felcsatolás</string>
+	<string name="unmount">Lecsatolás</string>
+	
+	<string name="should_restart">Inkonzisztens állapotot találtam. Javaslom a készülék újraindítását</string>
+	<string name="restart">Készülék újraindítása</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3770178749249223/9312577048</string>
+</resources>

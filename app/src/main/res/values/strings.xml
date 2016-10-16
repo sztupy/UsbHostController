@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version_desc">1.00</string>
+    
+    <string name="app_name">USB Host Controller</string>
+    
+    <string name="preferences">Settings</string>
+    <string name="info">Info</string>
+    <string name="usb">USB</string>
+    
+    <string name="about_box">About</string>
+    <string name="disable_ads">Disable Ads</string>
+    <string name="disable_ads_desc">Please donate if you do</string>
+    <string name="about_me">Created by SztupY</string>
+    <string name="about_me_desc">http://sztupy.hu</string>
+    <string name="donate">Donate via PayPal</string>
+    <string name="version">Version number</string>
+    
+    <string name="mount_box">Mounting</string>
+    <string name="mount_point">Mount Points</string>
+    <string name="mount_point_set">Put each option in a separate line</string>
+    <string name="debug_box">Debug Options</string>
+    <string name="wireless_adb">Start Wireless ADB</string>
+    <string name="disable_charger">Disable charger</string>
+    <string name="dmesg_mode">Dmesg display mode</string>
+    <string name="dmesg_mode_desc">Change dmesg display mode</string>
+    <string name="dmesg_save">Log dmesg output to SD-card</string>
+    <string name="driver_box">S3C OTG Driver Settings</string>
+    <string name="driver_def_mode">Default operation mode</string>
+    <string name="driver_def_mode_desc">Set the default mode when starting the application</string>
+    <string name="driver_mode">Operation Mode</string>
+    <string name="driver_mode_desc">Set operation mode to</string>
+    <string name="s3c_driver_not_found">No S3C Driver Present</string>
+    <string name="s3c_driver_invalid_mode">Invalid operation mode</string>
+    <string name="wireless_adb_unknown">Wireless ADB state unknown</string>
+    <string name="wireless_adb_off">Wireless ADB off</string>
+    <string name="wireless_adb_on">Wireless: </string>
+    <string name="driver_choose">USB host driver</string>
+    <string name="driver_choose_desc">Chose the desired USB host driver</string>    
+    
+    <string name="refresh">Refresh</string>
+	<string name="please_wait">Please Wait…</string>
+	
+	<string name="root_hub_yes">Root hub present, USB Host mode is active!</string>
+	<string name="root_hub_no">Root hub is not present, USB Host mode not active or not available!</string>
+	
+	<string name="s3c_driver_yes">S3C USB Host driver found!</string>
+	<string name="s3c_driver_no">No Root hub was found. Also the S3C USB Host driver was not found! If you are using a Samusng Galaxy S i9000, Nexus S, Samsung Captivate or similar phones, then please install a ROM which includes S3C host USB support. For other phones, please note USB support might not be supported on your device, or it has to be enabled separately. Please search on the internet for more information for your specific phone. It is also possible that the application could not find the USB root hub because of an internal error.</string>
+	
+	<string name="available_drivers">Drivers available</string>
+	<string name="actual_driver">Actual driver</string>
+	<string name="cable_state">Actual cable state</string>
+	<string name="op_state">Actual operation state</string>
+	<string name="op_mode">Actual operation mode</string>
+	<string name="can_disable_charger">Can charger be disabled</string>
+	<string name="is_charger_dis">Is charger disabled</string>
+	
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="ok">OK</string>
+	
+	<string name="conn_usb_dev">Connected USB devices</string>
+	<string name="conn_usb_strg">Connected mass storage devices</string>
+	<string name="mount_point_choose">Choose mount point</string>
+	<string name="message">Message</string>
+	
+	<string name="adv_commands">Choose a command</string>
+	
+	<string name="mount">MOUNT</string>
+	<string name="unmount">UNMOUNT</string>
+	
+	<string name="should_restart">Inconsistent conditions detected. You should restart the device!</string>
+	<string name="restart">Restart device</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3770178749249223/9312577048</string>
+</resources>

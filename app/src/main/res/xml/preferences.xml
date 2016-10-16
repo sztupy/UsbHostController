@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<!-- This is a primitive example showing the different types of preferences 
+	available. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:key="driver_box" android:title="@string/driver_box">
+        <ListPreference android:key="driver_def_mode"
+                android:title="@string/driver_def_mode"
+                android:entries="@array/op_mode_def_entries"
+                android:entryValues="@array/op_mode_def_values"
+                android:dialogTitle="@string/driver_def_mode_desc"
+                android:defaultValue="nochange" />    
+
+        <ListPreference android:key="driver_mode"
+                android:title="@string/driver_mode"
+                android:entries="@array/op_mode_entries"
+                android:entryValues="@array/op_mode_values"
+                android:dialogTitle="@string/driver_mode_desc"
+                android:defaultValue="nochange" />    
+                
+        <ListPreference android:key="driver_choose"
+                android:title="@string/driver_choose"
+                android:entries="@array/drivers_entries"
+                android:entryValues="@array/drivers_values"
+                android:dialogTitle="@string/driver_choose_desc"
+                android:defaultValue="S3CHS" />           
+        
+        <CheckBoxPreference android:key="disable_charger" android:title="@string/disable_charger" />
+            
+    </PreferenceCategory>    
+    
+    <PreferenceCategory android:title="@string/mount_box">
+
+	<EditTextPreference android:key="mount_points"
+			android:title="@string/mount_point"
+			android:dialogTitle="@string/mount_point_set" 
+			android:defaultValue="/mnt/sdcard/ehdd\n/mnt/sdcard/ehdd2\n/mnt/ehdd\n/mnt/sd-ext\n/mnt/emmc" />
+	</PreferenceCategory>
+	
+    <PreferenceCategory android:title="@string/debug_box">
+        <CheckBoxPreference android:key="wireless_adb" android:title="@string/wireless_adb" />
+        <ListPreference android:key="dmesg_mode"
+                android:title="@string/dmesg_mode"
+                android:entries="@array/dmesg_mode_entries"
+                android:entryValues="@array/dmesg_mode_values"
+                android:dialogTitle="@string/dmesg_mode_desc"
+                android:defaultValue="none" /> 
+        <CheckBoxPreference android:key="dmesg_save" android:title="@string/dmesg_save" />
+        <CheckBoxPreference android:key="restart_phone" android:title="@string/restart"/>
+    </PreferenceCategory>
+    
+	<PreferenceCategory android:title="@string/about_box">
+
+		<PreferenceScreen android:title="@string/about_me"
+			android:summary="@string/about_me_desc">
+
+			<intent android:action="android.intent.action.VIEW"
+				android:data="http://android.sztupy.hu" />
+		</PreferenceScreen>
+
+		<PreferenceScreen android:title="@string/version"
+			android:summary="@string/version_desc" />		
+		
+		<CheckBoxPreference android:key="disable_ads"
+			android:title="@string/disable_ads" android:summary="@string/disable_ads_desc" />
+		
+		<PreferenceScreen android:title="@string/donate">
+			<intent android:action="android.intent.action.VIEW"
+				android:data="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2631719" />
+		</PreferenceScreen>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
