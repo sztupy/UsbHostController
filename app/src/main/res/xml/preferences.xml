@@ -77,6 +77,11 @@
 				android:data="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2631719" />
 		</PreferenceScreen>
 
+		<PreferenceScreen android:title="@string/privacy_policy">
+			<intent android:action="android.intent.action.VIEW"
+				android:data="https://github.com/sztupy/UsbHostController/blob/master/Privacy.md" />
+		</PreferenceScreen>
+
 	</PreferenceCategory>
 
 </PreferenceScreen>

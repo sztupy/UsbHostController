@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="version_desc">1.00</string>
+    <string name="version_desc">1.10</string>
     
     <string name="app_name">USB Host Controller</string>
     
@@ -13,6 +13,7 @@
     <string name="disable_ads_desc">Please donate if you do</string>
     <string name="about_me">Created by SztupY</string>
     <string name="about_me_desc">http://sztupy.hu</string>
+    <string name="privacy_policy">Privacy Policy</string>
     <string name="donate">Donate via PayPal</string>
     <string name="version">Version number</string>
     

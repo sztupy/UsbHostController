@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="version_desc">1.00</string>
+    <string name="version_desc">1.10</string>
 
     <string name="app_name">USB Hoszt Vezérlő</string>
     
@@ -13,8 +13,10 @@
     <string name="disable_ads_desc">Támogasd a fejlesztést ha megteszed</string>
     <string name="about_me">Készítette SztupY</string>
     <string name="about_me_desc">http://android.sztupy.hu</string>
+    <string name="privacy_policy">Adatvédelmi tájékoztató</string>
     <string name="donate">Támogass PayPal-en keresztül</string>
     <string name="version">Verziószám</string>
+
     <string name="mount_box">Felcsatolás</string>
     <string name="mount_point">Csatolási pontok</string>
     <string name="mount_point_set">Minden egyes helyet külön sorba írj</string>
